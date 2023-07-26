@@ -8,6 +8,12 @@
 		"LSstoragen123n_connectionString": {
 			"value": ""
 		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://KV-DEV-N.vault.azure.net/"
+		},
+		"LSBLOB_properties_typeProperties_connectionString_secretName": {
+			"value": "secret-storagen123n-connectionstring"
+		},
 		"containerUri": {
 			"value": ""
 		},
