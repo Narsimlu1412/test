@@ -1,0 +1,19 @@
+{
+	"name": "DSINPUT",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LSstoragen123n",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": "Input",
+				"container": "containern"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

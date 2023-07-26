@@ -1,0 +1,19 @@
+{
+	"name": "LSOUTPUT",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LSstoragen123n",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": "OUTPUT",
+				"container": "containern"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
