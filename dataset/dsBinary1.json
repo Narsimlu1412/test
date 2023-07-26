@@ -1,0 +1,17 @@
+{
+	"name": "dsBinary1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LSstoragen123n",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "containern"
+			}
+		}
+	}
+}
